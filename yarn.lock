@@ -9886,6 +9886,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@twilio-paste/button-group@workspace:packages/paste-core/components/button-group":
+  version: 0.0.0-use.local
+  resolution: "@twilio-paste/button-group@workspace:packages/paste-core/components/button-group"
+  dependencies:
+    "@twilio-paste/box": ^7.0.1
+    "@twilio-paste/button": ^11.1.1
+    prop-types: ^15.7.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  peerDependencies:
+    "@twilio-paste/box": ^7.0.1
+    "@twilio-paste/button": ^11.1.0
+    prop-types: ^15.7.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  languageName: unknown
+  linkType: soft
+
 "@twilio-paste/button@^11.0.0, @twilio-paste/button@^11.1.0, @twilio-paste/button@^11.1.1, @twilio-paste/button@workspace:packages/paste-core/components/button":
   version: 0.0.0-use.local
   resolution: "@twilio-paste/button@workspace:packages/paste-core/components/button"
