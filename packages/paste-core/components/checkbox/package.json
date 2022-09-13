@@ -1,6 +1,6 @@
 {
   "name": "@twilio-paste/checkbox",
-  "version": "10.0.0",
+  "version": "10.0.1",
   "category": "user input",
   "status": "production",
   "description": "A Checkbox is a form element that enables a binary choice and a Checkbox Group is a collection of Checkboxes.",

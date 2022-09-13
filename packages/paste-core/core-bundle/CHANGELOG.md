@@ -1,5 +1,18 @@
 # Change Log
 
+## 15.2.1
+
+### Patch Changes
+
+- [`99bb7a146`](https://github.com/twilio-labs/paste/commit/99bb7a146bdd75c1b90f90769e74f162128b698e) [#2664](https://github.com/twilio-labs/paste/pull/2664) Thanks [@SiTaggart](https://github.com/SiTaggart)! - [Animation Library]: remove unecessary check for VRT tool we no longer use
+
+* [`02725a235`](https://github.com/twilio-labs/paste/commit/02725a235378cd9bb3eaa6513731d98877cc5b35) [#2667](https://github.com/twilio-labs/paste/pull/2667) Thanks [@shleewhite](https://github.com/shleewhite)! - [Checkbox, RadioGroup] When no id is passed, use a unique id. This fixes an issue where id is not marked as a required prop, but the control won't work unless it is passed.
+
+* Updated dependencies [[`99bb7a146`](https://github.com/twilio-labs/paste/commit/99bb7a146bdd75c1b90f90769e74f162128b698e), [`02725a235`](https://github.com/twilio-labs/paste/commit/02725a235378cd9bb3eaa6513731d98877cc5b35)]:
+  - @twilio-paste/animation-library@0.3.8
+  - @twilio-paste/checkbox@10.0.1
+  - @twilio-paste/radio-group@10.0.1
+
 ## 15.2.0
 
 ### Minor Changes

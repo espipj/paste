@@ -9614,7 +9614,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@twilio-paste/animation-library@^0.3.7, @twilio-paste/animation-library@workspace:packages/paste-libraries/animation":
+"@twilio-paste/animation-library@^0.3.7, @twilio-paste/animation-library@^0.3.8, @twilio-paste/animation-library@workspace:packages/paste-libraries/animation":
   version: 0.0.0-use.local
   resolution: "@twilio-paste/animation-library@workspace:packages/paste-libraries/animation"
   dependencies:
@@ -9961,7 +9961,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@twilio-paste/checkbox@^10.0.0, @twilio-paste/checkbox@workspace:packages/paste-core/components/checkbox":
+"@twilio-paste/checkbox@^10.0.0, @twilio-paste/checkbox@^10.0.1, @twilio-paste/checkbox@workspace:packages/paste-core/components/checkbox":
   version: 0.0.0-use.local
   resolution: "@twilio-paste/checkbox@workspace:packages/paste-core/components/checkbox"
   dependencies:
@@ -10159,7 +10159,7 @@ __metadata:
     "@twilio-paste/alert": ^11.0.1
     "@twilio-paste/alert-dialog": ^5.0.0
     "@twilio-paste/anchor": ^9.0.0
-    "@twilio-paste/animation-library": ^0.3.7
+    "@twilio-paste/animation-library": ^0.3.8
     "@twilio-paste/aspect-ratio": ^7.0.0
     "@twilio-paste/avatar": ^6.0.0
     "@twilio-paste/badge": ^5.0.0
@@ -10170,7 +10170,7 @@ __metadata:
     "@twilio-paste/callout": ^1.0.0
     "@twilio-paste/card": ^6.0.0
     "@twilio-paste/chat-log": ^2.0.1
-    "@twilio-paste/checkbox": ^10.0.0
+    "@twilio-paste/checkbox": ^10.0.1
     "@twilio-paste/clipboard-copy-library": ^1.0.4
     "@twilio-paste/code-block": ^1.0.0
     "@twilio-paste/color-contrast-utils": ^3.0.0
@@ -10207,7 +10207,7 @@ __metadata:
     "@twilio-paste/pagination": ^4.0.0
     "@twilio-paste/paragraph": ^7.0.0
     "@twilio-paste/popover": ^10.0.0
-    "@twilio-paste/radio-group": ^10.0.0
+    "@twilio-paste/radio-group": ^10.0.1
     "@twilio-paste/react-textarea-autosize-library": ^1.0.0
     "@twilio-paste/reakit-library": ^0.8.6
     "@twilio-paste/screen-reader-only": ^10.0.0
@@ -11168,7 +11168,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@twilio-paste/radio-group@^10.0.0, @twilio-paste/radio-group@workspace:packages/paste-core/components/radio-group":
+"@twilio-paste/radio-group@^10.0.0, @twilio-paste/radio-group@^10.0.1, @twilio-paste/radio-group@workspace:packages/paste-core/components/radio-group":
   version: 0.0.0-use.local
   resolution: "@twilio-paste/radio-group@workspace:packages/paste-core/components/radio-group"
   dependencies:
