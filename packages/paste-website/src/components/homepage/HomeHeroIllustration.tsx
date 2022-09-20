@@ -33,6 +33,8 @@ const IllustrationChildren: React.FC<{state: IllustrationStatesType}> = ({state}
  * - If prefers reduced motion, render static.
  */
 const HomeHeroIllustration: React.FC = () => {
+  // lottie doesn't honour our disableAnimations global, so we have to
+  // manually detect running in cypress to stop the animation on the homepage
   const prefersReducedMotion = useReducedMotion() || inCypress();
   const containerRef = React.useRef(null);
   const [illustrationState, setIllustrationState] = React.useState(IllustrationStates.UNINITIALIZED);
