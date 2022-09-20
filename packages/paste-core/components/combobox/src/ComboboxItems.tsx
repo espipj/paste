@@ -6,7 +6,7 @@ import {ComboboxListboxGroup} from './styles/ComboboxListboxGroup';
 import {getIndexedItems, getGroupedItems} from './helpers';
 import type {ComboboxItemsProps} from './types';
 
-const ComboboxItems: React.FC<ComboboxItemsProps> = ({
+const ComboboxItems: React.FC<React.PropsWithChildren<ComboboxItemsProps>> = ({
   items,
   element = 'COMBOBOX',
   getItemProps,

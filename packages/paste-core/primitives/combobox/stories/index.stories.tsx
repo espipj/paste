@@ -161,7 +161,7 @@ export const ComboboxNonHooks = (): React.ReactNode => {
   );
 };
 
-export const BasicMultiCombobox: React.FC = () => {
+export const BasicMultiCombobox: React.FC<React.PropsWithChildren<unknown>> = () => {
   const seed = useUIDSeed();
   const [filteredItems, setFilteredItems] = React.useState([...items]);
 
@@ -171,7 +171,7 @@ export const BasicMultiCombobox: React.FC = () => {
     useMultiSelectPrimitive({});
 
   const handleSelectItemOnClick = React.useCallback(
-    (selectedItem) => {
+    (selectedItem: any) => {
       addSelectedItem(selectedItem);
 
       setFilteredItems((currentFilteredItems) => currentFilteredItems.filter((item) => item !== selectedItem));
@@ -180,7 +180,7 @@ export const BasicMultiCombobox: React.FC = () => {
   );
 
   const handleRemoveItemOnClick = React.useCallback(
-    (selectedItem) => {
+    (selectedItem: any) => {
       removeSelectedItem(selectedItem);
 
       setFilteredItems((currentFilteredItems) => [...currentFilteredItems, selectedItem].sort());

@@ -10,7 +10,7 @@ import {useWindowSize} from '../../hooks/useWindowSize';
 
 const DELAY_INTERVAL = 250;
 
-export const GetStarted: React.FC = () => {
+export const GetStarted: React.FC<React.PropsWithChildren<unknown>> = () => {
   const {breakpointIndex} = useWindowSize();
 
   return (

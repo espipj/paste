@@ -13,7 +13,7 @@ const IllustrationStates = {
 };
 type IllustrationStatesType = ValueOf<typeof IllustrationStates>;
 
-const IllustrationChildren: React.FC<{state: IllustrationStatesType}> = ({state}) => {
+const IllustrationChildren: React.FC<React.PropsWithChildren<{state: IllustrationStatesType}>> = ({state}) => {
   switch (state) {
     case IllustrationStates.STATIC:
       return <HomeHeroIllu />;
@@ -31,7 +31,7 @@ const IllustrationChildren: React.FC<{state: IllustrationStatesType}> = ({state}
  * - If dynamic fails, render static.
  * - If prefers reduced motion, render static.
  */
-const HomeHeroIllustration: React.FC = () => {
+const HomeHeroIllustration: React.FC<React.PropsWithChildren<unknown>> = () => {
   const prefersReducedMotion = useReducedMotion();
   const containerRef = React.useRef(null);
   const [illustrationState, setIllustrationState] = React.useState(IllustrationStates.UNINITIALIZED);

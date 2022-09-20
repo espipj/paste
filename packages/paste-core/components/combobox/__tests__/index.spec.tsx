@@ -73,7 +73,7 @@ const ThemeWrapper: RenderOptions['wrapper'] = ({children}) => (
   <Theme.Provider theme="default">{children}</Theme.Provider>
 );
 
-const ComboboxMock: React.FC = () => {
+const ComboboxMock: React.FC<React.PropsWithChildren<unknown>> = () => {
   const [inputItems, setInputItems] = React.useState(items);
   return (
     <Combobox
@@ -91,9 +91,9 @@ const ComboboxMock: React.FC = () => {
   );
 };
 
-const GroupedMockCombobox: React.FC<{groupLabelTemplate?: ComboboxProps['groupLabelTemplate']}> = ({
-  groupLabelTemplate,
-}) => {
+const GroupedMockCombobox: React.FC<
+  React.PropsWithChildren<{groupLabelTemplate?: ComboboxProps['groupLabelTemplate']}>
+> = ({groupLabelTemplate}) => {
   return (
     <Combobox
       initialIsOpen
@@ -108,7 +108,7 @@ const GroupedMockCombobox: React.FC<{groupLabelTemplate?: ComboboxProps['groupLa
   );
 };
 
-const ControlledCombobox: React.FC = () => {
+const ControlledCombobox: React.FC<React.PropsWithChildren<unknown>> = () => {
   const [value, setValue] = React.useState('');
   const [selectedItem, setSelectedItem] = React.useState({});
   const [inputItems, setInputItems] = React.useState(objectItems);
