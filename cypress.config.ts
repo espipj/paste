@@ -24,6 +24,6 @@ export default defineConfig({
       '*.github.com',
       '*.googletagmanager.com',
     ],
-    specPattern: ['**/**/*.spec.ts'],
+    specPattern: ['cypress/**/*.spec.ts'],
   },
 });
