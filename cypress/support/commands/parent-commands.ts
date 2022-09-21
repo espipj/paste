@@ -1,4 +1,4 @@
-import {DEFAULT_VRT_OPTIONS, vrtIsEnabled} from 'support/utils/vrt';
+import {DEFAULT_VRT_OPTIONS, vrtIsEnabled} from '../utils/vrt';
 
 /**
  * @file Custom parent commands
