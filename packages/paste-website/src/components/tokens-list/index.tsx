@@ -34,7 +34,7 @@ const Content: React.FC<React.PropsWithChildren<unknown>> = (props) => (
 const defaultTheme = 'default';
 const defaultFormat = 'css';
 
-export const TokensList: React.FC<React.PropsWithChildren<unknown>> = () => {
+export const TokensList = (): JSX.Element => {
   // State related to the list of tokens
   const [tokens, setTokens] = React.useState<Tokens>(DefaultThemeTokens.tokens);
   const [tokenCategories, setTokenCategories] = React.useState(Object.keys(tokens));

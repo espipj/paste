@@ -4,7 +4,7 @@ import {Box} from '@twilio-paste/box';
 import {Text} from '@twilio-paste/text';
 import {SiteLink} from '../SiteLink';
 
-const CrumbSlash: React.FC<React.PropsWithChildren<unknown>> = () => (
+const CrumbSlash = (): JSX.Element => (
   <Box display="inline" paddingLeft="space20" paddingRight="space20">
     <Text as="span" color="colorTextWeak">
       /
