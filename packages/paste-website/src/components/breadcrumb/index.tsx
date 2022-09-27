@@ -12,7 +12,7 @@ const CrumbSlash = (): JSX.Element => (
   </Box>
 );
 
-const Breadcrumb: React.FC<React.PropsWithChildren<unknown>> = ({children}) => {
+const Breadcrumb: React.FC<React.PropsWithChildren> = ({children}) => {
   return (
     <nav aria-label="breadcrumb">
       <Box
