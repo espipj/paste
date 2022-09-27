@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Box} from '@twilio-paste/box';
+import type {BoxProps} from '@twilio-paste/box';
 import DefaultThemeTokens from '@twilio-paste/design-tokens/dist/tokens.generic';
 import DarkThemeTokens from '@twilio-paste/design-tokens/dist/themes/dark/tokens.generic';
 import {useClipboard} from '@twilio-paste/clipboard-copy-library';
@@ -24,10 +25,10 @@ const sentenceCase = (catName: string): string => {
     });
 };
 
-const ContentWrapper: React.FC<React.PropsWithChildren<unknown>> = (props) => (
+const ContentWrapper: React.FC<React.PropsWithChildren<BoxProps>> = (props) => (
   <Box as="div" display={['block', 'block', 'flex']} {...props} />
 );
-const Content: React.FC<React.PropsWithChildren<unknown>> = (props) => (
+const Content: React.FC<React.PropsWithChildren<BoxProps>> = (props) => (
   <Box as="div" position="relative" maxWidth="size70" minWidth="0" width="100%" {...props} />
 );
 
